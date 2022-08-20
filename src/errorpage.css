@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Montserrat:wght@300&display=swap');
+section{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:column;
+    text-align:center;
+    background-color: #B93160;
+    height: 100vh;
+}
+.main{
+    border:1px solid white;
+    background: white;
+    min-width: 35%;
+    min-height:60vh;
+    padding:3% 0 3% 0;
+    border-radius: 2rem;;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: lowercase;
+    margin:0;
+    
+}
+p{
+    margin: 0 2% 12% 2%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align:center;
+    
+}
+button{
+    
+    padding: 15px 30px;
+    font-size:1.2rem;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+@media screen and (max-width:850px){
+    .main img{
+        max-width: 200px;
+        max-height:215px;
+    }
+    .btn button{
+        position :relative;
+        margin-top:20%
+    }
+}
+@media screen and (max-width:300px){
+    .main img{
+        max-width:150px;
+        max-height:165px;
+    }
+    section {
+        background-color: white;
+    }
+}
